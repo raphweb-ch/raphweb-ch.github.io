@@ -1,5 +1,12 @@
 #  The contact options.
-
+-
+  type: strava
+  icon: 'fab fa-strava'
+  url:  'https://www.strava.com/athletes/23075135'
+-
+  type: instagram
+  icon: 'fab fa-instagram'
+  url:  'https://www.instagram.com/raphweb'
 -
   type: github
   icon: 'fab fa-github-alt'
@@ -10,10 +17,10 @@
   type: email
   icon: 'fas fa-envelope'
   noblank: true            # open link in current tab
--
-  type: rss
-  icon: 'fas fa-rss'
-  noblank: true
+#-
+#  type: rss
+#  icon: 'fas fa-rss'
+#  noblank: true
 
 # Uncomment and complete the url below to enable more contact options
 # -

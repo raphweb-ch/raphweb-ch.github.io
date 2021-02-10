@@ -1,7 +1,8 @@
 /*
   The common styles
 */
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;900&display=swap');    /* this is the original */
+/* @import url('https://fonts.googleapis.com/css2?family=Lekton&family=Open+Sans+Pro:wght@400;600;900&display=swap'); */
 
 @mixin mode-toggle($dark-mode: false) {
   @if $dark-mode {
@@ -125,7 +126,7 @@ footer {
   padding: 0 1rem;
   height: $footer-height;
   font-size: 0.8rem;
-  color: #7a7b7d;
+  color: rgb(175, 176, 177);      /*Original: color: #7a7b7d; */
   background-color: var(--footer-bg-color);
 
   > div.d-flex {
