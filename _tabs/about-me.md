@@ -1,6 +1,6 @@
 ---
 title: About me
-icon: fas fa-info
+icon: fas fa-user
 order: 5
 ---
 
