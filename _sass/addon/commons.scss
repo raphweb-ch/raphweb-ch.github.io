@@ -649,6 +649,7 @@ $sidebar-display: "sidebar-display";
       font-weight: 900;
       font-size: 1.5rem;
       letter-spacing: 0.5px;
+      color: rgb(138, 180, 248) !important ;   // Original: nicht vorhanden/gesetzt
     }
   }
 
@@ -677,12 +678,13 @@ $sidebar-display: "sidebar-display";
     height: $tab-height;
     &:hover {
       .nav-link {
-        color: #f8f9facf;
+        color: rgb(138, 180, 248);   // Original: color: #f8f9facf;
       }
     }
     &.active {
       .nav-link {
-        color: #fcfcfc;
+        color: rgb(138, 180, 248);   // Original: color: #fcfcfc;
+        font-weight: bold;    // Original: nicht vorhanden/gesetzt
       }
     }
   }
@@ -789,7 +791,7 @@ $sidebar-display: "sidebar-display";
 
     a:hover,
     #mode-toggle-wrapper i:hover {
-      color: #fff;
+      color: rgb(138, 180, 248);    // Original: #fff;
     }
 
   } // .sidebar-bottom
