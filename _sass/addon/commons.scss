@@ -612,7 +612,7 @@ $sidebar-display: "sidebar-display";
 
   #avatar {
     &:hover > a {
-      border-color: #fff;
+      border-color: rgb(138, 180, 248)    // Original: #fff;
     }
 
     > a {
