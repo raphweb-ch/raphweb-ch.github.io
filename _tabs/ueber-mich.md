@@ -1,5 +1,5 @@
 ---
-title: About me
+title: Über mich
 icon: fas fa-user
 order: 5
 ---
@@ -21,12 +21,12 @@ Viel Spass, RaphWeb
 <br>
 
 ```
-> Name          :       Raphael Weber
+> Name          :       Raphael
 > Wohnort       :       Zürich, Schweiz
 > Jahrgang      :       1991
 
 > Beruf         :       System Engineer (Modern Workplace)
-                        => Microsoft Windows, ConfigMgr, Intune, PowerShell,
+                        => Microsoft Windows, ConfigMgr, Intune, PowerShell
 
 > Hobbies       :       Laufen, Radfahren, Gleitschirmfliegen
 ```
